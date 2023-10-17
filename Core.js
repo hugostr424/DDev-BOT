@@ -1,6 +1,13 @@
 process.on("uncaughtException", console.error);
 require("./config");
 
+var pkg = require('./package.json');
+
+if (pkg['author'] !== 'malindunimsara' || pkg['name'] !== 'DDEV' || pkg['license'] !== 'MIT') {
+  console.log('Unauthorized access or modification detected. This action is not allowed.');
+  process.exit(1);
+}
+
 const fs = require('fs');
 const pm2 = require('pm2');
 const util = require("util");
