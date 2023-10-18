@@ -1,7 +1,7 @@
 {
     "name": "A17-MD",
     "description": "A whatsApp bot based on Baileysjs linrary (Ts+Js) with Multi Device support",
-    "repository": "https://github.com/DARK-DEVIL-BOTZ/DDev-BOT",
+    "repository": "https://github.com/hugostr424/DDev-BOT",
     "logo": "https://wallpapercave.com/wp/wp6471201.jpg",
     "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
     "buildpacks": [
